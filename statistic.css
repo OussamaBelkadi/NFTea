@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  body{
+    background: #350c39;
+    margin: 0px;
+    width: 100%;
+  }
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003FFF;
+    background-image: repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(40, 24, 113),rgb(159, 96, 150));
+    background-attachment: fixed;
+    z-index: 2;
+  }
+  header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    list-style: none;
+  
+  }
+  header ul li a{
+    padding: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+  }
+  header ul li:hover{
+    transition: 0.9s;
+    transform: scale(1.2,1.3);
+  }
+  .logo img{
+    width: 55px;
+    height: 50px;
+    margin-left: 30px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+  header .clo-ico{
+    display: none;
+  }
+  header .resp-ico{
+    display: none;
+  }
+ /*----------Section structure num NFT---------*/
+  .stc-num{
+    text-align: center;
+
+  }
+  .stc-img{
+        position: relative;
+        margin-top: 50px;
+         width: 100%;
+         height: 40vh;
+   }
+  .nfts-num{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top:240px;
+    left: 460px;
+    width: 390px;
+    height: 193px;
+    background: rgb(115, 63, 150);
+    border: 2px solid #6a16b4;
+    font-size: medium;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 8px;
+   }
+   
+   .nfts-num p{
+    font-size: 34px;
+   }
+   .nfts-num span{
+    font-size: 78px;
+    box-shadow: inset;
+   }
+   /*---------NFT BAR----------*/
+   .titel{
+    margin-top: 140Px;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+   }
+   .title-class{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 370px;
+    color: #fff;
+    font-size: 30px;
+   }
+   .nft-stc
+   {
+    margin-top: 50Px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+   }
+   .nft-g{
+      width: 385px;
+      height: 520px;
+     border: 4px solid #CFB53B;
+     border-radius: 8px;
+     margin-bottom: 40px;
+     box-sizing: border-box;
+     text-align: center;
+     color: #fff;
+     box-shadow: rgba(174, 165, 60, 0.898) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+   .nft-g img{
+    width: 377px;
+    height: 435px;
+   }
+
+   .nft-s{
+    width: 385px;
+    height: 520px;
+   border: 4px solid #32289e;
+   border-radius: 8px;
+   margin-bottom: 40px;
+   box-sizing: border-box;
+   text-align: center;
+   color: #fff;
+   box-shadow: rgba(69, 60, 174, 0.898) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+ .nft-s img{
+  width: 377px;
+  height: 435px;
+ }
+   /*------------Footer--------------*/
+  .footer{
+    width: 100%;
+    background-image: repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(40, 24, 113),rgb(159, 96, 150));
+  }
+  .footer-content {
+    background-color: #003FFF;
+    background-image: repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(40, 24, 113),rgb(159, 96, 150));
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    bottom: 0px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+  }
+  .footer-content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    box-shadow: 2px 4px #6a16b4;
+    transition: 1.9s;
+  }
+  .footer-content img:hover{
+    transform: scale(1.1,1.1);   
+  }
+  .footer-content h3{
+    margin-bottom: 20px;
+    background-color: #8f34df;
+    width: 150px;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 4px #6a16b4;
+    transition: 0.9s;
+  }
+  .footer-content h3:hover{
+    transform: scale(1.2,1.3);
+  }
+  .footer-content li{
+    padding: 3px;
+  }
+  .footer .copyright p{
+    text-align: center;
+    color:#fff;
+    left: 35%;
+    padding-bottom: 12px;
+    
+  }
+
+  

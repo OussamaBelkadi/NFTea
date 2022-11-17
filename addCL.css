@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-image: repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(0deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(83,0%,53%,0.03) 0px, hsla(83,0%,53%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(40, 24, 113),rgb(159, 96, 150));
+    background-size: cover;
+}
+head{
+    position: fixed;
+}
+.frm{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    left: 80px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #372734;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow:  3px 3px 3px rgb(78, 4, 74);
+}
+
+.frm h1{
+    color: #000;
+}
+.frm input{
+    border: 2px solid #de55c5; 
+    border-radius: 6px ;
+    width: 230px;
+    height: 30px;
+}
+.custom-file-upload{
+    background: #372734;
+}
+.frm .btn{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    background: rgb(169, 70, 161);
+    grid-column: span 1;
+    transition: 0.5s;
+    border: 1px solid #8f34df;
+    border-radius: 4px;
+    background-image: repeating-linear-gradient(147deg, rgba(222,235,40, 0) 0px, rgba(222,235,40, 0) 1px,transparent 1px, transparent 11px,rgba(222,235,40, 0) 11px, rgba(222,235,40, 0) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(192deg, rgba(222,235,40, 0) 0px, rgba(222,235,40, 0) 1px,transparent 1px, transparent 11px,rgba(222,235,40, 0) 11px, rgba(222,235,40, 0) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(102deg, rgba(222,235,40, 0) 0px, rgba(222,235,40, 0) 1px,transparent 1px, transparent 11px,rgba(222,235,40, 0) 11px, rgba(222,235,40, 0) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(237deg, rgba(222,235,40, 0) 0px, rgba(222,235,40, 0) 1px,transparent 1px, transparent 11px,rgba(222,235,40, 0) 11px, rgba(222,235,40, 0) 12px,transparent 12px, transparent 32px),linear-gradient(192deg, rgb(80,72,155),rgb(149,45,127));
+    width: 190px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    
+}
+.frm .btn:hover{
+    letter-spacing: 0.008rem;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000;
+    background: transparent;
+}
+.frm a{
+    text-decoration: none;
+    font-weight: 200;
+}
+@media (max-width: 550px){
+    body{
+        width: 390px;
+    }
+    .frm{
+        width: 300px;
+        height: 450px;
+        position: absolute;
+        left: 40px;
+        top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border: 2px solid #372734;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow:  3px 3px 3px rgb(78, 4, 74);
+    }
+}
